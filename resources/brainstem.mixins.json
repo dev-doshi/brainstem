@@ -1,0 +1,29 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.brainstem.mixin",
+  "plugin": "dev.brainstem.BsMixinPlugin",
+  "compatibilityLevel": "JAVA_21",
+  "server": [
+    "core.CommandsMixin",
+    "core.LegacyRandomSourceAccessor",
+    "core.MarsagliaPolarGaussianAccessor",
+    "gate.BehaviorBuilderMixin",
+    "gate.ConstantMixin",
+    "gate.InstanceMixin",
+    "gate.OneShotGateMixin",
+    "gate.PureMemoryMixin",
+    "jobsite.BrainMixin",
+    "jobsite.PoiCompetitorScanMixin",
+    "pathprobe.AcquirePoiReachMixin",
+    "pathprobe.LevelChunkMixin",
+    "pathprobe.PathNavigationAccessor",
+    "tempt.TargetingConditionsAccessor",
+    "tempt.TemptGoalMixin",
+    "village.MoveThroughVillageGoalMixin",
+    "village.PoiManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
